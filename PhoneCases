@@ -1,0 +1,38 @@
+<table style="width:100%" class="GamesTable">
+    <tr>
+        <th>iPhone 7 Plus Otterbox Case $35</th>
+        <th>Samsung Galaxy s8 Speck $25</th>
+        <th>Motorola E4 Sparkle Case $15</th>
+    </tr>
+    <tr>
+        <td> <img src= alt="Otterbox Case" style="width: 150px; height: 200px;"></td>
+        <td> <img src= alt="Speck Case" style="width: 150px; height: 200px;"></td>
+        <td> <img src= alt="Sparkle Case" style="width: 150px; height: 200px;"></td>
+    </tr>
+    <tr class="descriptions">
+        <td> 
+        </td>
+        <td> 
+        </td>
+        <td>
+        </td>
+    </tr>
+    <tr>
+        <th> Anker Ultra iPhone 6s Case $12</th>
+        <th> Galaxy S7 Card Holder Case $20</th>
+        <th> LG G4 Armor Case $8 </th>
+    </tr>
+    <tr>
+        <td> <img src= alt="Gears of War 4" style="width: 150px; height: 200px;"></td>
+        <td> <img src= alt="Minecraft" style="width: 150px; height: 200px;"></td>
+        <td> <img src= alt="NHL 18" style="width: 150px; height: 200px;"></td>
+    </tr>
+    <tr class="descriptions">
+        <td>
+        </td>
+        <td> 
+        </td>
+        <td>
+        </td>
+    </tr>
+</table>
