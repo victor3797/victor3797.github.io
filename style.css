@@ -7,13 +7,3 @@ background-image: url("Blue Background.jpg");
 {
   color: white;
 }
-
-h1
-{
-  border: 1px black;
-  background-color:lightgreen;
-  padding-top: 80px;
-  padding-right:30px;
-  padding-bottom:50px;
-  padding-left:80px;
-}
