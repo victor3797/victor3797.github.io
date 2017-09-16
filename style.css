@@ -5,5 +5,10 @@ background-image: url("Blue Background.jpg");
 
 p
 {
-  color: red;
+  color: white;
+}
+
+tr
+{
+ color: white;  
 }
