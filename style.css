@@ -1,6 +1,11 @@
-.image
+.color
 {
 background-color: rgb(255, 153, 153);
+}
+
+p
+{
+  color: black;
 }
 
 a:link
@@ -18,7 +23,7 @@ a:hover
     color: hotpink;
 }
 
-a:active 
+a:active
 {
     color: blue;
 }
