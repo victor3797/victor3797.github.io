@@ -5,13 +5,10 @@ background-color: rgb(255, 153, 153);
 
 p
 {
+  font-family: "Times New Roman", Times, serif;
   color: black;
 }
 
-h1
-{
-  color: white;
-}
 a:link
 {
     color: red;
@@ -30,4 +27,8 @@ a:hover
 a:active
 {
     color: blue;
+}
+
+th, td {
+    border-bottom: 1px solid #ddd;
 }
