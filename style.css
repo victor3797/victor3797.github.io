@@ -8,6 +8,10 @@ p
   color: black;
 }
 
+h1
+{
+  color: white;
+}
 a:link
 {
     color: red;
