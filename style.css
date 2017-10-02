@@ -34,3 +34,8 @@ p.arial{
 table.font{
   font-family: Arial, Helvetica, sans-serif
 }
+
+.text
+{
+  text-align: center;
+}
