@@ -1,9 +1,24 @@
 .image
 {
-background-image: url("Blue Background.jpg");
+background-color: rgb(255, 153, 153);
 }
 
-.color
+a:link
 {
-  color: white;
+    color: red;
+}
+
+a:visited
+{
+    color: green;
+}
+
+a:hover
+{
+    color: hotpink;
+}
+
+a:active 
+{
+    color: blue;
 }
