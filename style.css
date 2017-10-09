@@ -58,8 +58,9 @@ table.font{
       padding: 1em;
   }
 
-  .Header{
+h1 {
     font-size: 40px;
+    text align: center;
   }
 
 
