@@ -58,3 +58,15 @@ table.font{
     max-width: 1600px;
     margin-left: 190px;
     padding: 1em;
+  }
+
+  .nav {
+      float: left;
+      max-width: 160px;
+      margin: 0;
+      padding: 1em;
+  }
+
+  .Header{
+    font-size: 40px;
+  }
