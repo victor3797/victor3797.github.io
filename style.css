@@ -40,18 +40,8 @@ table.font{
   text-align: center;
 }
 
-.nav li {
-    list-style-type: none;
-    width: 200px;
-}
-
-.nav li a {
-    display: block;
-    padding: 8px 16px 8px;
-
-}
-
-.content {
+.content
+{
     color: white;
     text-align: center;
     font-size: 25px;
@@ -60,7 +50,8 @@ table.font{
     padding: 1em;
   }
 
-  .nav {
+  .nav
+  {
       float: left;
       max-width: 160px;
       margin: 0;
