@@ -42,7 +42,6 @@ table.font{
 
 .content
 {
-    color: white;
     text-align: center;
     font-size: 25px;
     max-width: 1600px;
@@ -63,7 +62,6 @@ h1 {
     text-align: center;
   }
 
-
-.top{
-    border-radius: 35%;
+h2 {
+    text-align: center;
 }
