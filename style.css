@@ -72,8 +72,7 @@ table.font{
   }
 
   h1 {
-    padding-top: 15px;
-    padding-bottom: 1px;
+    text-align: center;
 }
 
 h2 {
