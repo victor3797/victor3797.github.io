@@ -71,10 +71,7 @@ table.font{
     font-size: 40px;
   }
 
-  h1 {
-    text-align: center;
-}
 
-h2 {
-    padding-bottom: 20px;
+.top{
+    border-radius: 35%;
 }
