@@ -5,7 +5,7 @@ function validateForm()
     var b = document.contactForm.lastName.value;
     var c = document.contactForm.email.value;
     var d = document.contactForm.options.value;
-    var e = document.contactForm.problems.value;
+    var e = document.contactForm.problem.value;
 
     if (a == "" || a == null)
         {
