@@ -31,22 +31,54 @@
 <p class = "arial"> If you have any questions or concerns leave your name
   and email address. We wil get back to you as soon as possible. </p>
 
-<form>
+  <form name="contactForm" onsubmit="validateForm()">
 
-<p class = "arial" > First Name: <input type = "text" name = "theName" size = "10" maxlength= "25" /> </p>
-<p class = "arial"> Last Name: <input type = "text" name = "lastName" size = "10" maxlength= "25"> </p>
-<p class = "arial"> Email: <input type = "text" name = "email" size = "20" maxlength = "25"> </p>
-<p class = "arial">  Contact reason:
-  <select name = "options">
-    <option> Question </option>
-    <option> Problem </option>
-    <option> Order Status Update </option>
-</select>
-  </p>
-  <p> <textarea name = "problems" rows = "4" cols = "35"> </textarea> </p>
-<p> <input type = "submit" value = "Submit"/> <input type = "reset" value = "Reset"/> </p>
+                 <label for="fname">First Name:</label>
 
-</form>
+                 <input type="text" name="firstname" placeholder="Ex: John">
+
+                 <br />
+
+                 <label for="lname">Last Name:</label>
+
+                 <input type="text" name="lastname" placeholder="Ex: Doe">
+
+                 <br />
+
+                 <label for="email">Email:</label>
+
+                 <input type="text" name="email" placeholder="Ex: jdoe@mail.com">
+
+                 <br />
+
+                 <label for="contact reason">Contact Reason:</label>
+
+                 <select name="contactreason">
+
+                     <option value="question">Question</option>
+
+                     <option value="problem">Problem</option>
+
+                     <option value="order status update">Order Status Update</option>
+
+                 </select>
+
+                 <br />
+
+                 <label for="subject">Subject:</label>
+
+                 <br />
+
+                 <textarea name="subject" placeholder="Type comment here..." style="height:200px"></textarea>
+
+                 <br />
+
+                 <input type="submit" value="Submit">
+
+                 <input type="reset" value="Clear">
+
+             </form>
+
 
 
 </div>

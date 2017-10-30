@@ -1,11 +1,12 @@
 //javascript source code
 function validateForm()
 {
-    var a = document.forms["myForm"]["theName"].value;
-    var b = document.forms["myForm"]["lastName"].value;
-    var c = document.forms["myForm"]["email"].value;
-    var d = document.forms["myForm"]["options"].value;
-    var e = document.forms["myForm"]["problem"].value;
+    var a = document.contactForm.firstname.value;
+    var b = document.contactForm.lastname.value;
+    var c = document.contactForm.email.value;
+    var d = document.contactForm.contactreason.value;
+    var e = document.contactForm.subject.value;
+
 
     if (a == "" || a == null)
         {
