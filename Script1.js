@@ -1,35 +1,35 @@
 //javascript source code
 function validateForm()
 {
-    var a = document.contactForm.firstname.value;
-    var b = document.contactForm.lastname.value;
+    var a = document.contactForm.theName.value;
+    var b = document.contactForm.lastName.value;
     var c = document.contactForm.email.value;
-    var d = document.contactForm.contactreason.value;
-    var e = document.contactForm.subject.value;
+    var d = document.contactForm.options.value;
+    var e = document.contactForm.problems.value;
 
     if (a == "" || a == null)
         {
-            alert("First Name must be filled out.");
+            alert(" Your First Name must be filled out.");
             return false;
         }
     else if (b == "" || b == null)
         {
-            alert("Last Name must be filled out.");
+            alert(" Your Last Name must be filled out.");
             return false;
         }
     else if(c == "" || c == null)
         {
-            alert("Email must be filled out.");
+            alert(" You must enter a valid email adress.");
             return false;
         }
     else if(d == "" || d == null)
         {
-            alert("Reason must be filled out.");
+            alert("Please make sure to submit a reason.");
             return false;
         }
     else if(e == "" || e == null)
         {
-            alert("Subject must be filled out.");
+            alert("The subject must be filled out.");
             return false;
         }
 }
