@@ -30,7 +30,7 @@ function validateForm()
         }
     else if(e == "" || e == null)
         {
-            alert("The subject must be filled out.");
+            alert("Please enter information about the contact reason.");
             return false;
         }
 }
