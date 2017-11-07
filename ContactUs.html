@@ -17,12 +17,20 @@
 
 <h1> Cruz's Case </h1>
 <h2> Contact Us </h2>
-<ul class ="life">
-<li> <a href ="index.htm"> Home </a> </li>
-<li> <a href ="phonecases.html"> Phone Cases </a></li>
-<li> <a href = "laptopcases.html"> Laptop Cases </a></li>
-<li> <a href = "ContactUs.html"> Contact Us </a></li>
-</ul>
+
+<div class="navbar">
+<a href="index.htm">Home</a>
+<div class="dropdown">
+  <button class="dropbtn" onclick="myFunction()"> Products
+    <i class="fa fa-caret-down"></i>
+  </button>
+  <div class="dropdown-content" id="myDropdown">
+    <a href="laptopcases.html">Laptop Cases</a>
+    <a href="phonecases.html"> Phone Cases</a>
+  </div>
+</div>
+<a href="ContactUs.html">Contact Us</a>
+</div>
 
 </header>
 <div class = "information">
