@@ -127,7 +127,13 @@ h2 {
     display: block;
 }
 
-
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
+}
 
 .slide {
     position: absolute;
