@@ -127,37 +127,42 @@ h2 {
     display: block;
 }
 
-.mySlides{
-    display: none;
+/*
+essential styles:
+these make the slideshow work
+*/
+
+#slides {
+    position: relative;
+    height: 300px;
+    padding: 0px;
+    margin: 0px;
+    list-style-type: none;
 }
 
-.slider {
-  max-width: 700px;
-  height: 200px;
-  margin: 20px auto;
-  position: relative;
+.slide {
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    z-index: 1;
+
+    -webkit-transition: opacity 1s;
+    -moz-transition: opacity 1s;
+    -o-transition: opacity 1s;
+    transition: opacity 1s;
 }
-.slide1,.slide2,.slide3,.slide4,.slide5 {
-  position: absolute;
-  width: 100%;
-  height: 100%;
-}
-.slide1 {
-  background: url(Business Case.jpg)no-repeat center;
-      background-size: cover;
-    animation:fade 8s infinite;
--webkit-animation:fade 8s infinite;
+
+.slide > img
+{
+  width: 55%;
+  height: 95%;
 
 }
-.slide2 {
-  background: url(Dream Catcher.jpg)no-repeat center;
-      background-size: cover;
-    animation:fade2 8s infinite;
--webkit-animation:fade2 8s infinite;
-}
-.slide3 {
-    background: url(Card Case.jpg.jpg)no-repeat center;
-      background-size: cover;
-    animation:fade3 8s infinite;
--webkit-animation:fade3 8s infinite;
+
+.showing {
+    opacity: 1;
+    z-index: 2;
 }

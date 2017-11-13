@@ -46,29 +46,13 @@ You just might find the right case for you!</p>
 <img src = "Phone.png"  height = "200" width = "200" alt = "Marketing Pictures" />
 </div>
 
-<div class='slider'>
-  <div class='slide1'></div>
-  <div class='slide2'></div>
-  <div class='slide3'></div>
-</div>
+<ul id="slides">
+      <li class="slide showing"><img src="Laptop.png" alt="Sales Image"></li>
+      <li class="slide"><img src="Orange Case.jpg" alt="Consoles Image"></li>
+      <li class="slide"><img src="" alt="Steam Image"></li>
+      <li class="slide"><img src="" alt="eSports Image"></li>
+    </ul>
 
-<script>
-        var myIndex = 0;
-        carousel();
-        function carousel() {
-            var i;
-            var x = document.getElementsByClassName("mySlides");
-            for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-            }
-            myIndex++;
-            if (myIndex > x.length) {
-                myIndex = 1
-            }
-            x[myIndex - 1].style.display = "block";
-            setTimeout(carousel, 4000); // Change image every 2 seconds
-        }
-    </script>
 </body>
 
 </html>
